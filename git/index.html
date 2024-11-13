@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новая жизнь | Главная страница</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles/settings.css">
+    <link rel="stylesheet" href="styles/pages/index.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <!-- <div class="kartinka1">
+                <img src="1.jpg" alt="dfegh" class="kart1">
+            </div> -->
+            <a href="index.html" class="logo">New Live</a>
+            <ul>
+                <li>
+                    <a href="">Поиск</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <!-- <img src="img/1.jpg" alt="kartink"> -->
+       <section class="hero">
+        <div class="container">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/1777.jpg" alt="kartink">
+                          <p>Хорёк</p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipsic</p>
+                          <a href="">Подробнее</a>
+                        </div> <div class="swiper-slide">
+                            <img src="img/koshka.jpg" alt="kartink">
+                              <p>Кошка</p>
+                              <p>Lorem ipsum dolor sit amet consectetur adipsic</p>
+                              <a href="">Подробнее</a>
+                            </div> <div class="swiper-slide">
+                                <img src="img/merkuriy.jpg" alt="kartink">
+                                  <p>Меркурий</p>
+                                  <p>Lorem ipsum dolor sit amet consectetur adipsic</p>
+                                  <a href="">Подробнее</a>
+                                </div> <div class="swiper-slide">
+                                    <img src="img/1.jpg" alt="kartink">
+                                      <p>Ультрафиолет</p>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipsic</p>
+                                      <a href="">Подробнее</a>
+                                    </div>
+            </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+        </div>
+       </section> 
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView:3,
+        spaceBetween: 30,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+</body>
+</html>
