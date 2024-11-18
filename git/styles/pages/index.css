@@ -1,9 +1,6 @@
 .header{
     padding: 32px 0;
 }
-.logo{
-    
-}
 .header .container{
     display: flex;
     justify-content: space-between;
@@ -13,3 +10,94 @@
     display: flex;
     gap: 16px;
 }
+
+.short-search{
+    padding: 96px 100px;
+
+}
+.short-search form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;  
+    padding: 12px 32px;
+}
+.short-search .nq{
+    background-color: green;
+}
+
+.facts{
+    padding: 96px 0;
+    background-color: #f8f9fa;
+}
+.facts h2{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 64px;
+}
+.facts ul{
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.search{
+    padding: 96px 0;
+}
+.search .container{
+    display: flex;
+    gap: 96px;
+    justify-content: center;
+    align-items: center;
+}
+.search form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.nq2{
+    background-color: yellow;
+
+}
+.nq3{
+    background-color: yellow;
+}
+button{
+    background-color: aqua;
+}
+
+.sub{
+    padding: 96px 0;
+    background-color: #f8f9fa;
+    color: black;
+}
+.sub label{
+    display: block;
+}
+.sub form{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.footer{
+    padding: 96px 0;
+    background-color: #f8f9fa;
+    color: black;
+}
+.footer .container{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.footer_item ul,
+    .footer_item{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
